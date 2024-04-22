@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome Kit -->
+    <script src="https://kit.fontawesome.com/785e35af14.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <title>JS Slideshow</title>
 </head>
@@ -30,6 +32,9 @@
                 <div class="image fadeout"><img src="images/frog_11.jpg" alt=""></div>
                 <div class="image fadeout"><img src="images/frog_12.jpg" alt=""></div>
                 <div class="image fadeout"><img src="images/frog_13.jpg" alt=""></div>
+                
+                <div class="prev"><i onclick="showImage(-1)" class="fa-solid fa-hippo"></i></div>
+                <div class="next"><i onclick="showImage(1)" class="fa-solid fa-hippo"></i></div>
             </div>
         </div>
         <div class="dots">
@@ -49,7 +54,7 @@
         </div>
     </main>
     <footer>
-        <p>&copy;<span id="copyright"></span> Michael Roberts Productions</p>
+        <p>&copy;<span id="copyright"></span> Marcus Behn Productions</p>
     </footer>
 </body>
 </html>
